@@ -1,0 +1,59 @@
+/*
+Theme Name: VW Kids Store
+Description: Used to style Gutenberg Blocks.
+*/
+
+/*--------------------------------------------------------------
+4.0 Blocks - Layout Elements
+--------------------------------------------------------------*/
+/* Buttons */
+.entry-content .wp-block-button__link {
+  background: #ffc85b ;
+  border: 1px solid #ffc85b;
+  padding: 10px 15px;
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.wp-block-button.is-style-squared a{
+  border-radius: 0 !important;
+}
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus {
+  background: transparent;
+  color: #ffc85b !important;
+  border: 1px solid #ffc85b;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.wp-block-buttons .wp-block-button {
+  display: inline-block;
+  margin:0 0 15px;
+}
+/*without classic widgets*/
+.wp-block-tag-cloud a{
+  border: solid 1px #000;
+  color: #000;
+  font-size: 14px !important;
+  padding: 10px 18px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.wp-block-tag-cloud a:hover, #sidebar .more-button a:hover{
+  background-color: #ffc85b;
+  color: #fff;
+}
+.widget .custom-about-us, .widget .custom-contact-us{
+  padding: 10px;
+}
+.widget .custom-about-us p, .widget .custom-contact-us p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.wp-block-button.aligncenter, .wp-block-calendar{
+  text-align: start !important;
+}
